@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Écoviz</title>
+    <link rel="icon" href="image/flavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="dataviz/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Staatliches&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="corps">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="Logo" width="60" height="40"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+	            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projet.html">Mes projets</a>
+                    </li>
+                    <li class="nav-item contact">
+                        <a class="nav-link" href="contact.html" style="margin-right:0;" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <h2 class="text-center titre mb-5 mt-5">Écoviz</h2>
+        <div id="myCarousel" class="carousel slide mb-5 position-relative" data-bs-ride="carousel">
+            <!-- Indicateurs du carrousel -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+    
+            <!-- Contenu du carrousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid object-fit-cover h-auto" src="dataviz/image/capture1.webp" alt="page de garde">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid object-fit-cover h-auto" src="dataviz/image/capture2.webp" alt="carte">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid object-fit-cover h-auto" src="dataviz/image/capture3.webp" alt="augmentation de la mer">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid object-fit-cover h-auto" src="dataviz/image/capture4.webp" alt="baisse des animaux">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid object-fit-cover h-auto" src="dataviz/image/capture5.webp" alt="Notre Figma">
+                </div>
+            </div>
+    
+            <!-- Flèches de navigation -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    
+
+    <div class="container mt-5">
+        <div class="row align-items-start">
+            <!-- Détails du Projet à gauche -->
+            <div class="col-md-8">
+                <div class="section-title">
+                    <h2 class="soustitre fs-4 pb-2 border-bottom">Détails du Projet</h2>
+                </div>
+                <div class="paragraphe fs-6 mt-2" style="padding-right:2em;">
+                    <p>
+                        Pour ce projet, nous devions, en petits groupes, créer une visualisation interactive de données qui évoluent dans le temps. Le thème était libre, ce qui nous a permis de choisir un sujet qui nous tient à cœur et qui intéresse beaucoup de monde : l'évolution du réchauffement climatique.
+                    </p>
+                    <p>
+                        Nous avons décidé de nous concentrer sur la hausse des températures à l’échelle mondiale, en mettant en avant des données historiques allant de 1850 à aujourd'hui. De plus, nous avons recherché des chiffres marquants sur des sites comme celui de la WWF.
+                    </p>
+                    <p>
+                        Notre site devait être accessible à tout le monde et respecter des normes importantes comme celles du RGAA (Référentiel Général d'Amélioration de l'Accessibilité), des règles de qualité Opquast et des mentions légales. Cela signifie que nous devions toujours indiquer clairement les sources des données utilisées et respecter les bonnes pratiques en matière de conception web.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ma Contribution et Outils Utilisés à droite -->
+            <div class="col-md-4">
+                <div class="section-title">
+                    <h2 class="soustitre fs-4 pb-2 border-bottom">Ma contribution</h2>
+                </div>
+                <p class="paragraphe fs-6 mt-2">
+                    De mon côté, j'ai pris en charge l'intégration web, ce qui comprend la mise en place des éléments en HTML et CSS, ainsi que la programmation en JavaScript pour la gestion des mentions légales. En plus de cela, je me suis également occupée de la partie graphisme.
+                </p>
+                <div class="section-title mt-5">
+                    <h2 class="soustitre fs-4 pb-2 border-bottom">Outils utilisés</h2>
+                </div>
+                <p class="paragraphe fs-6 mt-2">
+                    Pour ce projet, nous avons utilisé différents outils de programmation, tels que HTML, CSS et JavaScript, pour développer la carte interactive ainsi que les mentions légales. Avant de passer au développement, nous avons d'abord travaillé sur la structure et le design du site à l'aide de Figma. Concernant la partie graphisme, tous les visuels ont été réalisés à l'aide d'une tablette.
+                </p>
+                <div class="d-flex justify-content-start">
+                    <img src="image/html_css.png" alt="HTML & CSS" class="img-fluid" style="width: 100px; height: 60px; margin-right: 20px;">
+                    <img src="dataviz/image/javascript.png" alt="JavaScript" class="img-fluid" style="width: 60px; height: 60px; margin-right: 20px;">
+                    <img src="image/figma.png" alt="Figma" class="img-fluid" style="width: 60px; height: 60px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Mon Avis tout en bas -->
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="section-title">
+                    <h2 class="soustitre fs-4 pb-2 border-bottom">Mon avis</h2>
+                </div>
+                <p class="paragraphe fs-6 mt-2">
+                    J'ai apprécié travailler sur ce projet, même si le développement web n'est pas forcément le domaine que je préfère. J'ai beaucoup aimé notre sujet, notre site, et surtout le travail en groupe. Nous avons eu une excellente entente, ce qui a rendu l'expérience très agréable. Je suis fière de ce que nous avons accompli ensemble. Certes, il a été un peu compliqué au départ de trouver un sujet intéressant, mais nous avons finalement choisi quelque chose de simple et accessible, qui parle à tout le monde.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100" style="background-color: #fff3ec;">
+        <footer class="d-flex flex-column flex-wrap py-3 mt-5 border-top">
+            <div class="d-flex align-items-center justify-content-between w-100 px-3">
+                <!-- Logo et Copyright -->
+                <div class="d-flex align-items-center">
+                    <a href="/" class="me-2 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap" /></svg>
+                    </a>
+                    <span class="p-2 text-body-secondary sousp">&copy; 2024 Delphine Quach, Tous droits réservés.</span>
+                </div>
+    
+                <!-- Liens de navigation -->
+                <ul class="nav list-unstyled d-flex mb-0">
+                    <li class="ms-3">
+                        <a class="nav-link paragraphe text-body-secondary text-decoration-none" href="index.html">Accueil</a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="nav-link paragraphe text-body-secondary text-decoration-none" href="propos.html">À propos</a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="nav-link paragraphe text-body-secondary text-decoration-none" href="projet.html">Mes projets</a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="nav-link paragraphe text-body-secondary text-decoration-none" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+    
+                <!-- Réseaux sociaux -->
+                <ul class="nav list-unstyled d-flex mb-0">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.instagram.com/_vne_.75/"><img src="image/insta.png" alt="Instagram" width="30" height="30"></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.linkedin.com/in/delphine-quach-14a2a72a2/"><img src="image/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="mailto:delphine.quach75n@gmail.com"><img src="image/mail.png" alt="Mail" width="30" height="30"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
