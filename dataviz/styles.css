@@ -153,3 +153,13 @@ h3 {
 	margin-top: -25px; 
 	position: relative;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* Supprime l'icône blanche par défaut */
+  width:5rem;
+  height: 5rem;
+  background-color: red; /* Flèches bien visibles */
+  border-radius: 50%;
+  opacity: 0.9;
+}
