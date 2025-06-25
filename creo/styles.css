@@ -1,0 +1,165 @@
+:root {
+	--noir: #55423d; 
+	--bleu-clair: #fff3ec;
+	--marron: #ffc0ad; 
+	--beige: #fffffe;
+	--bleu: #9656a1;
+	/* --paragraphe: font-family: "Gabarito", serif; font-size: 14px; color: var(--beige);
+	--sousparagraphe: font-family: "Gabarito", serif; font-size: 12px; color: var(--beige); */
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.corps{
+	background-color: var(--noir);
+}
+.custom-navbar {
+	background-color: var(--beige);
+}
+.container{
+	margin-right:auto;
+	margin-left: auto;
+	align-items: center;
+}
+
+.navbar-nav .nav-link {
+	font-family: "Gabarito", serif; 
+	font-size: 18px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px;
+	color: var(--noir);
+	transition: color 0.3s ease; 
+	margin-right: 1.5rem;
+}
+.navbar-nav .nav-link:hover {
+	color: black;
+}
+.navbar {
+	border-bottom: 2px solid black;
+}
+
+@media (min-width: 1200px) {
+    .name {
+        font-size: 4.5em;
+    }
+}
+
+.name{
+	line-height: 1.2;
+	font-family: "Unna", serif;
+	font-weight: bold;
+	font-style: normal;
+	color:var(--beige);
+}
+
+.moi{
+	margin-top:7em;
+	width: 505px;
+	height: 400px;
+}
+
+.soustitre{
+	font-family: "Gabarito", serif; 
+	font-size: 24pt;
+	font-weight: bold;
+	color:var(--bleu-clair);
+}
+
+.contact{
+	background-color: var(--bleu-clair);
+	padding:5px;
+	border-radius: 5px;
+	margin-right: 0;
+}
+
+.contact:hover{
+	background-color: var(--bleu);
+}
+
+.navbar-nav{
+	align-items: center;
+}
+
+.sousp{
+	font-family: "Gabarito", serif; 
+	font-size: 14px; 
+	color: var(--marron);
+ }
+ 
+
+.avatar-placeholder {
+    width: 80px; /* Taille de l'avatar */
+    height: 80px; /* Taille de l'avatar */
+    background-color: var(--bleu-clair); /* Couleur temporaire */
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.badge {
+    font-size: 0.9rem; /* Taille des badges */
+    padding: 0.4rem 0.7rem;
+    border-radius: 10px;
+}
+
+.post{
+	padding:1em;
+}
+
+.insta{
+	font-family: "Gabarito", serif; 
+	font-size: 24px;
+	font-weight: bold;
+	line-height: auto;
+}
+
+.badge{
+	font-size: 0.9rem;
+	background-color: rgba(217, 217, 217, 0.5);
+	margin-top:0.5em;
+}
+
+.titre{
+	font-family: "Gabarito", serif; 
+	font-size: 48px;
+	font-weight: bold;
+	color:var(--beige);
+}
+
+.paragraphe{
+	font-family: "Gabarito", serif; 
+	font-size: 16px; 
+	color: var(--beige);
+} 
+
+.carte{
+	background-color: var(--beige);
+	border-radius: 0 0 6px 6px;
+}
+
+.nomprojet{
+	font-family: "Gabarito", serif;
+	font-size: 24px; 
+	font-weight: 700; 
+	color: var(--noir);
+	margin-bottom: 2em;
+}
+
+.affiche {
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+	cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.affiche:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image au survol */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
